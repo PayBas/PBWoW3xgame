@@ -1,0 +1,21 @@
+<!-- IF postrow.S_PROFILE_PB_XGAME_RACE -->
+<div class="icons-frame">
+	<div class="game-icon-a">
+		<!-- IF postrow.PROFILE_PB_XGAME_RACE_VALUE_RAW -->
+		<div class="icon-xgame-{postrow.PROFILE_PB_XGAME_RACE_VALUE_RAW}<!-- IF postrow.S_PROFILE_PB_XGAME_GENDER and postrow.PROFILE_PB_XGAME_GENDER_VALUE_RAW > 1 --> female<!-- ENDIF -->" title="{postrow.PROFILE_PB_XGAME_RACE_VALUE}"></div>					
+		<!-- ENDIF -->
+	</div>
+	<div class="game-icon-b">
+		<!-- IF postrow.PROFILE_PB_XGAME_CLASS_VALUE_RAW -->
+		<div class="icon-xgame-{postrow.PROFILE_PB_XGAME_CLASS_VALUE_RAW}" title="{postrow.PROFILE_PB_XGAME_CLASS_VALUE}"></div>
+		<!-- ENDIF -->
+	</div>
+	<div class="game-icon-c">
+		<!-- IF postrow.POSTS_RANK_IMG -->
+		<div class="" style="background-image: url('{postrow.POSTS_RANK_IMG_SRC}');" title="{postrow.POSTS_RANK_TITLE}"></div>
+		<!-- ELSEIF postrow.PROFILE_PBFACTION -->
+		<div class="icon-xgame-{postrow.PROFILE_PBFACTION}"></div>
+		<!-- ENDIF -->
+	</div>
+</div>
+<!-- ENDIF -->

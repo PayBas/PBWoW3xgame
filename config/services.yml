@@ -1,0 +1,5 @@
+services:
+    paybas.xgame.listener:
+        class: paybas\xgame\event\listener
+        tags:
+            - { name: event.listener }

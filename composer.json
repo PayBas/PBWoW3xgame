@@ -1,0 +1,24 @@
+{
+    "name": "paybas/xgame",
+    "type": "phpbb-extension",
+    "description": "This extension extends PBWoW 3 with other game-logic.",
+    "homepage": "http://pbwow.com/",
+    "version": "1.0.0",
+    "time": "2014-07-07",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "PayBas",
+            "email": "admin@pbwow.com",
+            "homepage": "http://www.paybas.com",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "phpbb/phpbb": "3.1.*@dev"
+    },
+    "extra": {
+        "display-name": "XGame extension for PBWoW 3"
+    }
+}

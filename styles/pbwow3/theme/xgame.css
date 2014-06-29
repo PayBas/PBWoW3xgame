@@ -1,0 +1,47 @@
+/* Game Icons for XGame */
+
+/*.game-icon.icon-a { }  default and missing value */
+.game-icon-a .icon-xgame-1 			{ background-image: url("./icons/race_human_male.jpg"); }
+.game-icon-a .icon-xgame-1.female	{ background-image: url("./icons/race_human_female.jpg"); }
+.game-icon-a .icon-xgame-2			{ background-image: url("./icons/race_orc_male.jpg"); }
+.game-icon-a .icon-xgame-2.female	{ background-image: url("./icons/race_orc_female.jpg"); }
+.game-icon-a .icon-xgame-3 			{ background-image: url("./icons/race_dwarf_male.jpg"); }
+.game-icon-a .icon-xgame-3.female	{ background-image: url("./icons/race_dwarf_female.jpg"); }
+.game-icon-a .icon-xgame-4			{ background-image: url("./icons/race_night-elf_male.jpg"); }
+.game-icon-a .icon-xgame-4.female	{ background-image: url("./icons/race_night-elf_female.jpg"); }
+.game-icon-a .icon-xgame-5			{ background-image: url("./icons/race_undead_male.jpg"); }
+.game-icon-a .icon-xgame-5.female	{ background-image: url("./icons/race_undead_female.jpg"); }
+.game-icon-a .icon-xgame-6			{ background-image: url("./icons/race_tauren_male.jpg"); }
+.game-icon-a .icon-xgame-6.female	{ background-image: url("./icons/race_tauren_female.jpg"); }
+.game-icon-a .icon-xgame-7			{ background-image: url("./icons/race_gnome_male.jpg"); }
+.game-icon-a .icon-xgame-7.female	{ background-image: url("./icons/race_gnome_female.jpg"); }
+.game-icon-a .icon-xgame-8			{ background-image: url("./icons/race_troll_male.jpg"); }
+.game-icon-a .icon-xgame-8.female	{ background-image: url("./icons/race_troll_female.jpg"); }
+.game-icon-a .icon-xgame-9			{ background-image: url("./icons/race_goblin_male.jpg"); }
+.game-icon-a .icon-xgame-9.female	{ background-image: url("./icons/race_goblin_female.jpg"); }
+.game-icon-a .icon-xgame-10			{ background-image: url("./icons/race_blood-elf_male.jpg"); }
+.game-icon-a .icon-xgame-10.female	{ background-image: url("./icons/race_blood-elf_female.jpg"); }
+.game-icon-a .icon-xgame-11			{ background-image: url("./icons/race_draenei_male.jpg"); }
+.game-icon-a .icon-xgame-11.female	{ background-image: url("./icons/race_draenei_female.jpg"); }
+.game-icon-a .icon-xgame-12			{ background-image: url("./icons/race_worgen_male.jpg"); }
+.game-icon-a .icon-xgame-12.female	{ background-image: url("./icons/race_worgen_female.jpg"); }
+.game-icon-a .icon-xgame-13			{ background-image: url("./icons/race_pandaren_male.jpg"); }
+.game-icon-a .icon-xgame-13.female	{ background-image: url("./icons/race_pandaren_female.jpg"); }
+
+/*.game-icon.icon-b { }  default and missing value */
+.game-icon-b .icon-xgame-1		{ background-image: url("./icons/class_warrior.jpg"); }
+.game-icon-b .icon-xgame-2		{ background-image: url("./icons/class_paladin.jpg"); }
+.game-icon-b .icon-xgame-3		{ background-image: url("./icons/class_hunter.jpg"); }
+.game-icon-b .icon-xgame-4		{ background-image: url("./icons/class_rogue.jpg"); }
+.game-icon-b .icon-xgame-5		{ background-image: url("./icons/class_priest.jpg"); }
+.game-icon-b .icon-xgame-6		{ background-image: url("./icons/class_death-knight.jpg"); }
+.game-icon-b .icon-xgame-7		{ background-image: url("./icons/class_shaman.jpg"); }
+.game-icon-b .icon-xgame-8		{ background-image: url("./icons/class_mage.jpg"); }
+.game-icon-b .icon-xgame-9		{ background-image: url("./icons/class_warlock.jpg"); }
+.game-icon-b .icon-xgame-10		{ background-image: url("./icons/class_monk.jpg"); }
+.game-icon-b .icon-xgame-11		{ background-image: url("./icons/class_druid.jpg"); }
+
+/*.game-icon.icon-c { }  default and missing value */
+.game-icon-c .icon-xgame-1		{ background-image: url("./icons/faction_1.gif"); }
+.game-icon-c .icon-xgame-2		{ background-image: url("./icons/faction_2.gif"); }
+.game-icon-c .icon-xgame-3		{ background-image: url("./icons/faction_3.gif"); }
