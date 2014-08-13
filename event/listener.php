@@ -42,12 +42,12 @@ class listener implements EventSubscriberInterface
 		$xgame_gender = isset($tpl_fields['row']['PROFILE_PB_XGAME_GENDER_VALUE_RAW']) ? $profile_row['pb_xgame_gender']['value'] - 1 : NULL;
 
 		// We dump the -1 value back into the template, so we can assign CSS classes starting from 1
-		if($xgame_race > 0) { $tpl_fields['row']['PROFILE_PB_XGAME_RACE_VALUE_RAW'] = $xgame_race; }
-		if($xgame_class > 0) { $tpl_fields['row']['PROFILE_PB_XGAME_CLASS_VALUE_RAW'] = $xgame_class; }
-		if($xgame_gender > 0) { $tpl_fields['row']['PROFILE_PB_XGAME_GENDER_VALUE_RAW'] = $xgame_gender; }
+		if ($xgame_race > 0) { $tpl_fields['row']['PROFILE_PB_XGAME_RACE_VALUE_RAW'] = $xgame_race; }
+		if ($xgame_class > 0) { $tpl_fields['row']['PROFILE_PB_XGAME_CLASS_VALUE_RAW'] = $xgame_class; }
+		if ($xgame_gender > 0) { $tpl_fields['row']['PROFILE_PB_XGAME_GENDER_VALUE_RAW'] = $xgame_gender; }
 
 		// Let's assume that if there is no race defined, we can't do anything interesting
-		if($xgame_race !== NULL)
+		if ($xgame_race !== NULL)
 		{
 			// Lets assign factions, based on race. If they are race 5,6 or 7, assign them to the red team (1), or else to the blue team (2)
 			$faction = (in_array($xgame_race, array(5,6,7))) ? 1 : 2;
