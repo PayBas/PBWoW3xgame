@@ -1,22 +1,13 @@
 <?php
-
 /**
-*
-* @package XGame extension for PBWoW 3
-* @copyright (c) 2014 PayBas
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-*
-*/
+ *
+ * @package XGame extension for PBWoW 3
+ * @copyright (c) 2015 PayBas
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 namespace paybas\xgame\event;
-
-/**
- * @ignore
- */
-if (!defined('IN_PHPBB'))
-{
-	exit;
-}
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
